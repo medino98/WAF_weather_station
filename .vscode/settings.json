@@ -1,0 +1,26 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "CMD_IDF": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [
+                "/k",
+                "C:/Espressif/frameworks/esp-idf-v5.1.1/export.bat"
+            ],
+            "icon": "terminal-cmd"
+        }
+    },
+    "files.associations": {
+        "freertos.h": "c",
+        "esp_log.h": "c",
+        "esp_wifi.h": "c",
+        "as5600.h": "c",
+        "esp_system.h": "c",
+        "gpio.h": "c",
+        "i2c.h": "c",
+        "esp_http_client.h": "c",
+        "nvs_flash.h": "c"
+    }
+}
